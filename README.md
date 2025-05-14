@@ -7,7 +7,6 @@ Este repositório contém a *parte do cliente (frontend)* da aplicação, que *j
 - [Apresentação do projeto](https://drive.google.com/file/d/1zCVifnTDqTuPjPHXvCwBrk5iSBmy432P/view?usp=sharing)
 
 ### 👩‍💻👨‍💻 Desenvolvedores do Grupo 13
-> - CAROLINA DE MACEDO MARTINS
 > - FLAVIO RICARDO PRADO PASTROLIN
 > - GUILHERME DE LIMA IRGANG
 > - JAYANNE QUEIROZ MOURA
