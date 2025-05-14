@@ -1,0 +1,83 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 195 33% 97%;
+    --foreground: 187 12% 17%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 187 12% 17%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 187 12% 17%;
+
+    --primary: 187 29% 27%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 199 59% 40%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 43 33% 61%;
+    --accent-foreground: 187 12% 17%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 199 59% 40%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 187 29% 17%;
+    --sidebar-foreground: 195 75% 88%;
+    --sidebar-primary: 199 59% 40%;
+    --sidebar-primary-foreground: 195 75% 88%;
+    --sidebar-accent: 43 33% 61%;
+    --sidebar-accent-foreground: 187 12% 17%;
+    --sidebar-border: 187 29% 27%;
+    --sidebar-ring: 195 75% 88%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .medapp-container {
+    @apply container mx-auto px-4;
+  }
+
+  .status-badge-pending {
+    @apply bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full text-xs font-medium;
+  }
+
+  .status-badge-completed {
+    @apply bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-medium;
+  }
+
+  .status-badge-cancelled {
+    @apply bg-red-100 text-red-800 px-2 py-1 rounded-full text-xs font-medium;
+  }
+
+  .bottom-tab {
+    @apply flex flex-col items-center justify-center py-2;
+  }
+  
+  .bottom-tab-active {
+    @apply text-medapp-blue;
+  }
+}
