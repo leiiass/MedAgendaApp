@@ -24,7 +24,43 @@ Este repositório contém a *parte do cliente (frontend)* da aplicação, que *j
 - [Axios](https://axios-http.com/)
 - [Eslint + Prettier](https://eslint.org/)
 
+## 📁 Estrutura de pastas
 
+
+app/                     # Telas e rotas da aplicação
+├── dashboard/           # Tela principal após login
+├── dashboard-medico/    # Dashboard específico para médicos
+├── login/               # Tela de login
+├── register/            # Tela de registro
+├── nova-consulta/       # Agendamento de nova consulta
+├── meu-perfil-medico/   # Perfil médico
+├── meu-perfil-paciente/ # Perfil paciente
+└── usuario/             # Configurações do usuário
+
+assets/                  # Imagens e fontes
+components/              # Componentes reutilizáveis
+constants/               # Constantes da aplicação
+hooks/                   # Hooks personalizados
+modelos/                 # Tipagens e modelos
+scripts/                 # Scripts auxiliares
+services/                # Serviços de comunicação com a API
+
+
+## ▶️ Como rodar o projeto
+
+### Pré-requisitos
+- Node.js instalado
+- Expo CLI instalado globalmente (opcional):  
+  npm install -g expo-cli
+
+### Passos
+
+```bash
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npx expo start
 
 
 
