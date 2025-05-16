@@ -26,7 +26,7 @@ Este repositório contém a *parte do cliente (frontend)* da aplicação, que *j
 
 ## 📁 Estrutura de pastas
 
-
+```bash
 app/                     # Telas e rotas da aplicação
 ├── dashboard/           # Tela principal após login
 ├── dashboard-medico/    # Dashboard específico para médicos
@@ -44,7 +44,7 @@ hooks/                   # Hooks personalizados
 modelos/                 # Tipagens e modelos
 scripts/                 # Scripts auxiliares
 services/                # Serviços de comunicação com a API
-
+```
 
 ## ▶️ Como rodar o projeto
 
